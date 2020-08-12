@@ -1,0 +1,98 @@
+todo:
+
+X Soul Gem Crafting
+  Soul Gem Filling
+X Imbued Armor
+X Sacrificial Dagger
+  Dagger Filling Bottles with souls
+  Soulbound Enchantment
+  Golden heads
+  Reimplement Disenchanting with altar
+X Reimplement Imbuement with Magma block
+  Implement +1 level enchanting at altar
+  Totems
+  Advancements
+
+
+Soul Gems
+	crafting
+		diamond
+		glowstone dust
+		soul fragment
+			soul fragments are dropped from mobs randomly, or 100 percent if using a sacrificial daggar
+			
+	percent chance:
+		1: Grand
+			Ender Dragon
+			Wither
+		9: Greater
+			Enderman
+			Blaze
+			Ghast
+			Shulker
+			Phantom
+			Guardian
+		20: Common
+			Zombie
+			Skeleton
+			Creeper
+			Pigman
+			Witch
+		30: Lesser
+			Polar Bear
+			Spider
+			Drowned
+		40: Petty
+			Cow
+			Horse
+			Pig
+			Chicken
+			Rabbit
+			Turtle
+			Dolphin
+			Fish
+			Bat
+			Squid
+		
+	Black Soul Gem
+		Grand Soul Gem
+		Coal
+		Eye of Ender
+			Can trap player souls
+
+
+
+golden heads
+	like golden apple
+	
+essence of mob
+
+better potion crafting
+
+spells?
+
+strip enchantments from books
+level up enchantments 1 past the official one
+
+use boombers enchanting API?!?
+
+use attribute modifiers
+
+
+gems/totems
+	speed
+	regeneration
+	fire resistance
+	resistance
+	
+Soulbound Enchantment
+	
+wither bone
+
+
+
+
+
+
+
+

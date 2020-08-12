@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": "Grimiore",
+        "description": "Ooo, spooky!",
+        "icon": {
+			"item": "minecraft:book"
+		},
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "tsp:daydream/000_root",
+    "criteria": {
+    "grimoire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:written_book",
+			"nbt": "{author:\"Unknown\",title:\"The Void, Vol. 1\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "grimoire"
+    ]
+  ]
+}

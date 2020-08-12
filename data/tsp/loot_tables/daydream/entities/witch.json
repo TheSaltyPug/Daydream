@@ -1,0 +1,39 @@
+{
+	"pools": [
+	{
+		"rolls": 1,
+			"entries": [
+			{
+				"type": "minecraft:loot_table",
+				"name": "minecraft:entities/witch"
+			}
+			]
+	},
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "item",
+			"conditions": [
+			{
+				"condition": "entity_properties",
+				"entity": "killer_player",
+				"predicate": {
+					"nbt": "{SelectedItem:{id: \"minecraft:diamond_sword\"}}"
+				},
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}
+			],
+			"name": "minecraft:written_book",
+			"functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{pages:[\"{\\\"text\\\": \\\"\\\\n\\\\n       A Guide to\\\\n        The Void\\\\n\\\\n\\\\n\\\\n        ///////\\\"}\", \"{\\\"text\\\": \\\"Preface\\\\n    Since I started doing this magic, strage things have happened to me. Visions, bad omens. Nothing is real and everything seems like a dream. I've since decided to record my experiences with these magics, as a warning to any who might dare to obtain\\\"}\", \"{\\\"text\\\": \\\"the power of the Void.\\\\n     It is my hope that my experiences will deter the young and foolish from the same fate that I posess. Alas, if you've made it this far, you might as well keep reading. \\\\n\\\\n\\\\n                - A\\\"}\", \"{\\\"text\\\": \\\"Sacrifical Dagger\\\\n    Its a simple tool, yet has many magical properties. By melting zombie flesh onto my iron sword, I was able to capture parts of animal souls in empty bottles. Strangely, this only happens with this weapon.\\\"}\", \"{\\\"text\\\": \\\"Cauldrons\\\\n    The iron basin known as the cauldron is a lot more useful that I previously thought. When heated from underneath and filled to the brim with water, I am able to combine the Soul Fragments with a diamond and glowstone dust to create a strange gem. These\\\"}\", \"{\\\"text\\\": \\\"gems, which I shall call Soul Gems, have varying levels of power that can capture the complete soul of more difficult mobs with each diamond used to create them.\\\"}\"],title:\"The Void, Vol.1\",author:Unknown}"
+			}
+			]			
+		}
+		]
+	}
+	]
+}

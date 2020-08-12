@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": "Enchanting Altar",
+        "description": "Use the Enchanting Altar",
+        "icon": {
+			"item": "minecraft:enchanting_table"
+		},
+        "show_toast": true,
+        "announce_to_chat": true,
+		"hidden": false
+    },
+    "parent": "tsp:daydream/002_dagger",
+	"criteria": {
+    "altar1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:written_book",
+			"nbt": "{author:\"lelkek\",title:\"NotGonnaHappen\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "altar1"
+    ]
+  ]
+}
+    

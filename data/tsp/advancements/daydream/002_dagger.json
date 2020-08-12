@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": "Sacrificial Dagger",
+        "description": "\"It's dripping blood!\"",
+        "icon": {
+			"item": "minecraft:stone_sword",
+            "nbt": "{CustomModelData:1630002}"
+		},
+        "show_toast": true,
+        "announce_to_chat": true,
+		"hidden": false
+    },
+    "parent": "tsp:daydream/001_get_book",
+    "criteria": {
+    "dagger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone_sword",
+            "nbt": "{CustomModelData:1630002}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dagger"
+    ]
+  ]
+}

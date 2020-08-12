@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": "Imbuement Altar",
+        "description": "Use the Imbuement Altar",
+        "icon": {
+			"item": "minecraft:glowstone"
+		},
+        "show_toast": true,
+        "announce_to_chat": true,
+		"hidden": false
+    },
+    "parent": "tsp:daydream/002_dagger",
+	"criteria": {
+    "altar2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:written_book",
+			"nbt": "{author:\"lelkek\",title:\"NotGonnaHappen\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "altar2"
+    ]
+  ]
+}

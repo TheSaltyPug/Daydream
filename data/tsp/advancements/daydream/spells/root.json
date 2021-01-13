@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "Daydream Spells",
+        "description": "Unlocked Daydream Spells",
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "background": "minecraft:textures/block/black_wool.png",
+        "show_toast": false,
+        "announce_to_chat": false
+        
+    },
+    "criteria": {
+    "daydreamspells": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+  
+}

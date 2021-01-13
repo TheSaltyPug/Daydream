@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"translate": "tsp.dd.item.spells.4.1", "italic": false}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{"translate": "tsp.dd.item.spells.4.1.desc.1", "italic": false, "color": "gray"},
+								{"translate": "tsp.dd.item.spells.4.1.desc.2", "italic": false, "color": "gray"},
+                                [
+                                    {"text":"D", "italic": false, "color":"#7C007C"},
+                                    {"text":"a", "italic": false, "color":"#9B005F"},
+                                    {"text":"y", "italic": false, "color":"#B20049"},
+                                    {"text":"d", "italic": false, "color":"#CF002E"},
+                                    {"text":"r", "italic": false, "color":"#EB0013"},
+                                    {"text":"e", "italic": false, "color":"#FF0000"},
+                                    {"text":"a", "italic": false, "color":"#FF5C00"},
+                                    {"text":"m", "italic": false, "color":"#FFFF00"}
+                                ]
+
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:3160010,tsp-dd-spell_school:4,tsp-dd-spell_id:1}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

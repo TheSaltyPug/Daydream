@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "Alteration",
+        "description": "An interesting school of magic",
+        "icon": {
+			"item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:3160003}"
+		},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "tsp:daydream/spells/root",
+    "criteria": {
+    "daydreamspells": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
+

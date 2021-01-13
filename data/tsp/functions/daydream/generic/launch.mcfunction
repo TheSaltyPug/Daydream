@@ -26,9 +26,9 @@ scoreboard players operation @s g_dx -= @s g_x
 scoreboard players operation @s g_dy -= @s g_y
 scoreboard players operation @s g_dz -= @s g_z
 
-execute store result entity @s power[0] double 0.0006 run scoreboard players get @s g_dx
-execute store result entity @s power[1] double 0.0006 run scoreboard players get @s g_dy
-execute store result entity @s power[2] double 0.0006 run scoreboard players get @s g_dz
+execute store result entity @s power[0] double 0.0004 run scoreboard players get @s g_dx
+execute store result entity @s power[1] double 0.0004 run scoreboard players get @s g_dy
+execute store result entity @s power[2] double 0.0004 run scoreboard players get @s g_dz
 
 scoreboard objectives remove g_x
 scoreboard objectives remove g_y

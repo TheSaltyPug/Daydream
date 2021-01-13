@@ -17,7 +17,18 @@
 							"lore": [
 								{"translate": "tsp.dd.item.spells.1.4.desc.1", "italic": false, "color": "gray"},
 								{"translate": "tsp.dd.item.spells.1.4.desc.2", "italic": false, "color": "gray"},
-								{"translate": "tsp.dd.item.spells.1.4.desc.3", "italic": false, "color": "gray"}
+								{"translate": "tsp.dd.item.spells.1.4.desc.3", "italic": false, "color": "gray"},
+                                [
+                                    {"text":"D", "italic": false, "color":"#7C007C"},
+                                    {"text":"a", "italic": false, "color":"#9B005F"},
+                                    {"text":"y", "italic": false, "color":"#B20049"},
+                                    {"text":"d", "italic": false, "color":"#CF002E"},
+                                    {"text":"r", "italic": false, "color":"#EB0013"},
+                                    {"text":"e", "italic": false, "color":"#FF0000"},
+                                    {"text":"a", "italic": false, "color":"#FF5C00"},
+                                    {"text":"m", "italic": false, "color":"#FFFF00"}
+                                ]
+
 							]
 						},
 						{

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {"translate": "tsp.dd.item.spells.1.4"},
+        "description": [
+							{"translate": "tsp.dd.item.spells.1.4.desc.1", "italic": false, "color": "gray"},
+							{"translate": "tsp.dd.item.spells.1.4.desc.2", "italic": false, "color": "gray"},
+							{"translate": "tsp.dd.item.spells.1.4.desc.3", "italic": false, "color": "gray"}],
+
+        "icon": {
+			"item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:3160003}"
+		},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "tsp:daydream/spells/spells.1.3",
+    "criteria": {
+    "daydreamspells": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
+

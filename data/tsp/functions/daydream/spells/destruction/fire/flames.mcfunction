@@ -1,5 +1,5 @@
-execute positioned ~ ~1.35 ~ run summon minecraft:fireball ^ ^ ^1 {ExplosionPower:1,direction:[1.0,0.0,0.0],power:[0.0,0.0,0.0],Tags:["launch"]}
+execute if score @s tsp.debug matches 1 run say flames
 
-execute as @e[tag=launch,limit=1,sort=nearest] at @s rotated as @p run function tsp:spells/generic/launch
-# execute as @e[tag=launch,limit=1,sort=nearest] at @s rotated as @p run function tsp:spells/generic/launch
-
+execute if score @s tsp.dd.spl.3.1.2 matches 1.. run tellraw @p [{"text":"You cannot use that spell for another "},{"score":{"name":"@s","objective":"tsp.dd.spl.3.1.2"},"color":"gold"},{"text":" ticks."}]
+execute if score @s tsp.dd.spl.3.1.2 matches ..0 if score @s tsp.dd.cmana matches 10.. run function tsp:daydream/spells/destruction/fire/run/init
+execute if score @s tsp.dd.spl.3.1.2 matches ..0 if score @s tsp.dd.cmana matches ..10 run tellraw @p [{"text":"You do not have enough mana to cast this spell."}] 
